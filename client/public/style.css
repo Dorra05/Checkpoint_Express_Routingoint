@@ -1,0 +1,24 @@
+
+h1{
+    color:rgb(240, 174, 127);
+    text-decoration: underline;
+}
+nav ul{
+    background-color:#411010;
+    text-decoration: none;
+    padding: 12px 0;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+a{
+    color:rgb(218, 238, 107);
+    text-decoration:double;
+}
+a:hover{
+    color: white;;
+}
+
+body{
+    background-color:rgb(92, 7, 95);
+}
