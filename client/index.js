@@ -6,9 +6,9 @@ let dor=express();
 let port=5000;
 
 //dor
+dor.use(working.checkWorkingHours);
 dor.use(serv.route);
 dor.use(contact.route);
-dor.use(working.checkWorkingHours);
 dor.use(express.static('public'));
 
 //navbar
